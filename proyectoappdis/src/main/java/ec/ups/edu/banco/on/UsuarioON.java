@@ -73,7 +73,7 @@ public class UsuarioON {
 		}else if (usuario.getTipoUsuario().equals("Jefe de credito")) {
 			pagina="CreditoJefeCredito";
 		}else {
-			pagina="DetalleCuenta";
+			pagina="InicioCliente";
 		}
 		
 		return pagina;
